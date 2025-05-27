@@ -4,7 +4,7 @@ import authRoutes from "./routes/auth.routes.js"
 import taskRoutes from "./routes/task.routes.js"
 import cookieParser from "cookie-parser";
 
-const app = express()
+const app = express();
 
 app.use(morgan('dev'));
 app.use(express.json());
